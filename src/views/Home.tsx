@@ -1,4 +1,4 @@
-import { Box, Container } from "@mui/material";
+import { Box, Container, Typography } from "@mui/material";
 import LoginForm from "../components/LoginForm/LoginForm";
 
 export default function Home() {
@@ -20,6 +20,14 @@ export default function Home() {
         ></Box>
         <LoginForm />
       </>
+      <Typography
+        sx={{ position: "fixed", bottom: "0", right: "0", padding: "10px" }}
+        variant="body2"
+        color="initial"
+      >
+        Lucatoni &copy;. Todos los derechos reservados{" "}
+        {new Date().getFullYear()}{" "}
+      </Typography>
     </Container>
   );
 }

@@ -1,4 +1,4 @@
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import { useEffect, useState } from "react";
 import CardSmall from "../components/CardSmall/CardSmall";
 import { Character } from "../interfaces/character";
@@ -53,6 +53,19 @@ export default function Characters() {
         </Box>
       )}
       <Paginacion setPage={setPage} totalPage={totalPage} />
+      <Typography
+        sx={{
+          position: "relative",
+          bottom: "0",
+          left: "1130px",
+          padding: "10px",
+        }}
+        variant="body2"
+        color="initial"
+      >
+        Lucatoni &copy;. Todos los derechos reservados{" "}
+        {new Date().getFullYear()}{" "}
+      </Typography>
     </>
   );
 }
