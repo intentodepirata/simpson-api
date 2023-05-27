@@ -15,7 +15,7 @@ const Paginacion: React.FC<PaginacionProps> = ({ setPage, totalPage }) => {
   };
 
   return (
-    <Stack sx={{ pt: 5 }} spacing={2}>
+    <Stack sx={{ p: 5 }} spacing={2}>
       <Pagination
         onChange={handlePageChange}
         size="large"
