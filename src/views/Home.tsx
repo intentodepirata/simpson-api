@@ -21,7 +21,7 @@ export default function Home() {
         <LoginForm />
       </>
       <Typography
-        sx={{ position: "fixed", bottom: "0", right: "0", padding: "10px" }}
+        sx={{ mt: 30, textAlign: "center", mb: 2 }}
         variant="body2"
         color="initial"
       >

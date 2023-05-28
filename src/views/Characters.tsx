@@ -55,10 +55,8 @@ export default function Characters() {
       <Paginacion setPage={setPage} totalPage={totalPage} />
       <Typography
         sx={{
-          position: "relative",
-          bottom: "0",
-          left: "1130px",
-          padding: "10px",
+          my: 2,
+          textAlign: "center",
         }}
         variant="body2"
         color="initial"
